@@ -15,4 +15,5 @@ GMT 5.4.3
 GSHHG 2.3.7
 DCW 1.1.3
 
-![Alt text](Screenshot 1.png?raw=true "Title")
+![Screenshot](Screenshot 1.png)
+
