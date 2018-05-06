@@ -17,7 +17,7 @@ DCW 1.1.3
 
 
 <p align="center">
-  <img src="Screenshot 1.png" width="350"/>
-  <img src="Screenshot 2.png" width="350"/>
+  <img src="Screenshot 1.png" height="350"/>
+  <img src="Screenshot 2.png" height="350"/>
 </p>
 
