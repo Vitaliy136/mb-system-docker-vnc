@@ -4,6 +4,7 @@ Remote work with mb-system inside a Docker, run GUI applications
 sudo docker build -t mb-system .
 
 Run docker container with shared dir
+
 sudo docker run -p 5920:5920 -v mb/Data:/home/researcher/Data mb-system
 
 vncviewer localhost:5920
