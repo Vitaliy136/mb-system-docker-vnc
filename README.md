@@ -10,9 +10,6 @@ sudo docker run -p 5920:5920 -v mb/Data:/home/researcher/Data mb-system
 vncviewer localhost:5920
 (passwd: SecretKey)
 
-<p align="center">
-  <img src="Screenshot 0.png" height="300"/>
-</p>
 
 Versions:
 MB_SYSTEM 5.5.2334
