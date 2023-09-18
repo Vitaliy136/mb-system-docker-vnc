@@ -2,6 +2,7 @@
 Remote work with mb-system inside a Docker, run GUI applications
 
 docker compose build
+
 docker compose up
 
 Run docker container with shared Data dir
@@ -17,8 +18,7 @@ localhost:5920, passwd: SecretKey
 Desktop resolution and password can be changed in the start.sh file
 
 <p align="center">
-  <img src="Imgs/Screenshot_3.png" height="200"/>
-  <img src="Imgs/Screenshot_4.png" height="200"/>
+  <img src="Imgs/Screenshot_4.png" height="300"/>
 </p>
 
 Some data to check the operation of the system can be downloaded from the resource
@@ -30,24 +30,26 @@ https://www.ngdc.noaa.gov/ships/ocean_alert/Loihi_mb.html
 
 
 ls -1 | grep mb57 > list
+
 mbdatalist -F-1 -I list > datalist.mb-1
+
 mbm_plot -F-1 -I datalist.mb-1 -C -G1
 
 <p align="center">
-  <img src="Imgs/Screenshot_6.png" height="200"/>
-  <img src="Imgs/Screenshot_7.png" height="200"/>
+  <img src="Imgs/Screenshot_6.png" height="300"/>
+  <img src="Imgs/Screenshot_7.png" height="300"/>
 </p>
 
 ./datalist.mb-1.cmd
 
 <p align="center">
-  <img src="Imgs/Screenshot_8.png" height="200"/>
-  <img src="Imgs/Screenshot_9.png" height="200"/>
+  <img src="Imgs/Screenshot_8.png" height="300"/>
+  <img src="Imgs/Screenshot_9.png" height="300"/>
 </p>
 
 
 Versions:
-ENV MB_SYSTEM_V 5.7.9
-ENV GMT_V 6.3.0
-ENV GSHHG_V 2.3.7
-ENV DCW_V 2.1.2
+MB_SYSTEM_V 5.7.9
+GMT_V 6.3.0
+GSHHG_V 2.3.7
+DCW_V 2.1.2
