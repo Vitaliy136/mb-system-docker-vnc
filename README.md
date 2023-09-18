@@ -49,7 +49,11 @@ mbm_plot -F-1 -I datalist.mb-1 -C -G1
 
 
 Versions:
+
 MB_SYSTEM_V 5.7.9
+
 GMT_V 6.3.0
+
 GSHHG_V 2.3.7
+
 DCW_V 2.1.2
