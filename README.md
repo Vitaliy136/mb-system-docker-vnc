@@ -1,5 +1,8 @@
 # mb-system-docker-vnc
-Remote work with mb-system inside a Docker, run GUI applications
+Remote work with mb-system 
+https://www.mbari.org/technology/mb-system/ 
+https://github.com/dwcaress/MB-System/tree/master
+inside a Docker, run GUI applications
 
 
 ```
