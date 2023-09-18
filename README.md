@@ -2,10 +2,10 @@
 Remote work with mb-system inside a Docker, run GUI applications
 
 
-`docker compose build`
-
-`docker compose up`
-
+```
+docker compose build
+docker compose up
+```
 
 Run docker container with shared Data dir
 
@@ -30,19 +30,20 @@ https://www.ngdc.noaa.gov/ships/ocean_alert/Loihi_mb.html
   <img src="Imgs/Screenshot_5.png" height="300"/>
 </p>
 
-
-`ls -1 | grep mb57 > list`
-
-`mbdatalist -F-1 -I list > datalist.mb-1`
-
-`mbm_plot -F-1 -I datalist.mb-1 -C -G1`
+```
+ls -1 | grep mb57 > list
+mbdatalist -F-1 -I list > datalist.mb-1
+mbm_plot -F-1 -I datalist.mb-1 -C -G1
+```
 
 <p align="center">
   <img src="Imgs/Screenshot_6.png" height="300"/>
   <img src="Imgs/Screenshot_7.png" height="300"/>
 </p>
 
-`./datalist.mb-1.cmd`
+```
+./datalist.mb-1.cmd
+```
 
 <p align="center">
   <img src="Imgs/Screenshot_8.png" height="300"/>
