@@ -42,7 +42,7 @@ ENV HOME /home/researcher
 WORKDIR /home/researcher
 
 
-ENV MB_SYSTEM_V 5.7.8
+ENV MB_SYSTEM_V 5.7.9
 ENV GMT_V 5.4.4
 ENV GSHHG_V 2.3.7
 ENV DCW_V 2.1.2

@@ -1,0 +1,7 @@
+services:
+  mb:
+    build: .
+    ports:
+      - '5920:5920'
+    volumes:
+      - "Data:/home/researcher/Data"
