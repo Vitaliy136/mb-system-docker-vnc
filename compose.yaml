@@ -1,0 +1,7 @@
+services:
+  mb:
+    build: .
+    ports:
+      - '5920:5920'
+    volumes:
+      - "/home/vitaly.khudokon/Projects/Devel/docker/mb-system-docker-vnc-dc/Data:/home/researcher/Data"
